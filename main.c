@@ -13,10 +13,12 @@ int main()
   else
   {
     for(int i = 0; i < 10; i++)
-      {
-        fscan(fp, "%d\n", &temp);
-        printf("zahl: %d\n", temp);
-      }
+    {
+      fscan(fp, "%d\n", &temp);
+      printf("zahl: %d\n", temp);
+    }
+    fclose(tp);
   }
-  
+
+  return 0;
 }
